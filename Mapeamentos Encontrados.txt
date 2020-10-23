@@ -1,0 +1,1394 @@
+ "__comment": "BB190 BERTHING_STRUCTURE <-> hdv_atracadouro_terminal",
+      "classe_ida": "bb190",
+      "classe_volta": "hdv_atracadouro_terminal",
+     ,
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "pwc",
+          "attr_volta": "tipoatracad",
+          "traducao": [
+            {
+              "valor_ida": 1,
+              "valor_volta": 42
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 38
+            },
+            {
+              "valor_ida": 3,
+              "valor_volta": 39
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 40,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 41,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 43,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 44,
+              "sentido": "volta"
+            }
+          ]
+        }
+      ]
+    }
+RELACIONADO COM edgv.hdv_atracadouro_terminal
+geometriaaproximada -> acc => L: Sim; A: Não
+matconstr - > mcc => L: não consegui preencher; A: idem
+situacaofisica - > fun  => L: Abandonada; A: Destruída
+tipoatracad -> pwc => L: não apareceu; A: idem
+ERRO
+NAO TEM DO TIPO PONTO SO AREA E LINHA
+
+
+    "__comment": "AN010 RAILWAY <-> fer_trecho_ferroviario",
+      "classe_ida": "an010",
+      "classe_volta": "fer_trecho_ferroviario",
+      "filtro_ida": {
+        "$not": {
+          "nome_atributo": "rrc",
+          "valor": 15
+        }
+      },
+      ,
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "loc",
+          "attr_volta": "posicaorelativa",
+          "traducao": [
+            {
+              "valor_ida": 45,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 44,
+              "valor_volta": 4,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 40,
+              "valor_volta": 5,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 40,
+              "valor_volta": 6
+            },
+            {
+              "valor_ida": 44,
+              "valor_volta": 2
+            }
+          ]
+        },
+        {
+          "attr_ida": "rcc",
+          "attr_volta": "tipotrechoferrov",
+          "traducao": [
+            {
+              "valor_ida": 14,
+              "valor_volta": 5
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 5,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 6,
+              "valor_volta": 8
+            },
+            {
+              "valor_ida": 8,
+              "valor_volta": 7,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 32,
+              "valor_volta": 7,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 33,
+              "valor_volta": 7,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 0,
+              "sentido": "volta"
+            }
+          ]
+        },
+        {
+          "attr_ida": "rir",
+          "attr_volta": "emarruamento",
+          "traducao": [
+            {
+              "valor_ida": 1000,
+              "valor_volta": false
+            },
+            {
+              "valor_ida": 1001,
+              "valor_volta": true
+            },
+            {
+              "valor_ida":0,
+              "valor_volta":false,
+              "sentido":"ida"
+            }
+          ]
+        },
+        {
+          "attr_ida": "rra",
+          "attr_volta": "eletrificada",
+          "traducao": [
+            {
+              "valor_ida": 4,
+              "valor_volta": 0
+            },
+            {
+              "valor_ida": 3,
+              "valor_volta": 1,
+              "sentido": "ida"
+            }
+          ]
+        },
+        {
+          "attr_ida": "rta",
+          "attr_volta": "nrlinhas",
+          "traducao": [
+            {
+              "valor_ida": 9999,
+              "valor_volta": 4
+            }
+          ]
+        }
+      ]
+    }
+
+RELACIONOU COM edgv.fer_treco_ferroviario
+eletrificada -> rra SMD
+amarruamento - > rir SMD
+geometriaaproximada -> acc SMD
+nome -> nam => t3 (txt)
+nrlinhas -> rta => SMD
+posicaorelativa -> loc => Elevada(3)
+situacaofisica - > fun => Em Construção (3)
+LINHA :
+
+
+
+   "__comment": "BH060 FLUME <-> dut_trecho_duto",
+      "classe_ida": "bh060",
+      "classe_volta": "dut_trecho_duto",
+      ,
+      "filtro_volta":{
+        "nome_atributo":"tipotrechoduto",
+        "valor":2
+      },
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "loc",
+          "attr_volta": "posicaorelativa",
+          "traducao": [
+            {
+              "valor_ida": 40,
+              "valor_volta": 6
+            },
+            {
+              "valor_ida": 44,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 3,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 5,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 4,
+              "sentido":"volta"
+            }
+          ]
+        }
+      ]
+    }
+RELACIONOU COM edgv.dut_trcho_duto
+geometriaaproximada -> acc  => SMD
+posicaorelativa -> loc => Elevada (3)
+situacaofisica -> fun => Abandonada(1)
+v2
+
+  "__comment": "BI020 DAM <-> hid_barragem",
+      "classe_ida": "bi020",
+      "classe_volta": "hid_barragem",
+     ,
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "mcc",
+          "attr_volta": "matconstr",
+          "traducao": [
+            {
+              "valor_ida": 0,
+              "valor_volta": 0
+            },
+            {
+              "valor_ida": 21,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 77,
+              "valor_volta": 2,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 83,
+              "valor_volta": 2,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 64,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 62,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 104,
+              "valor_volta": 23
+            },
+            {
+              "valor_ida": 84,
+              "valor_volta": 4
+            },
+            {
+              "valor_ida": 108,
+              "valor_volta": 4,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 117,
+              "valor_volta": 5
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 99
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 97
+            }
+          ]
+        }
+      ],
+  
+RELACIONOU COM edgv.hid_barragem
+geometriaaproximada -> acc => SMD
+nome -> nam => A: t5 (txt)/ NA: v3; NL: v4; NP: v5
+situacaofisica - >fun => A: Destruída (2) /NA: Destruída (2); NL: 3; NP: 1
+matconstr -> mcc => - / NA: 2; NL: 2; NP: 3 ERRO
+VOK
+TINHA A L E PONTO
+
+  "__comment": "AA010 EXTRACTION MINE <-> eco_ext_mineral",
+      "classe_ida": "aa010",
+      "classe_volta": "eco_ext_mineral",
+      ,
+      "filtro_volta": {
+        "$not": {
+          "$or": [
+            {
+              "nome_atributo": "tipoextmin",
+              "valor": 8
+            },
+            {
+              "nome_atributo": "tipoextmin",
+              "valor": 6
+            },
+            {
+              "nome_atributo": "tipoextmin",
+              "valor": 1
+            },
+            {
+              "nome_atributo": "tipoproduto",
+              "valor": 3
+            },
+            {
+              "nome_atributo": "tipoproduto",
+              "valor": 5
+            },
+            {
+              "nome_atributo": "tipoproduto",
+              "valor": 28
+            },
+            {
+              "nome_atributo": "tipoproduto",
+              "valor": 29
+            },
+            {
+              "nome_atributo": "tipoproduto",
+              "valor": 31
+            }
+          ]
+        }
+      },
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "mzn",
+          "attr_volta": "tipoextmin",
+          "traducao": [
+            {
+              "valor_ida": 3,
+              "valor_volta": 5
+            },
+            {
+              "valor_ida": 9,
+              "valor_volta": 4
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 0
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 5,
+              "valor_volta": 6,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 8,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 99,
+              "sentido": "volta"
+            }
+          ]
+        },
+        {
+          "attr_ida": "ppo",
+          "attr_volta": "tipoproduto",
+          "traducao": [
+            {
+              "valor_ida": 0,
+              "valor_volta": 0
+            },
+            {
+              "valor_ida": 9,
+              "valor_volta": 25
+            },
+            {
+              "valor_ida": 18,
+              "valor_volta": 33
+            },
+            {
+              "valor_ida": 26,
+              "valor_volta": 32
+            },
+            {
+              "valor_ida": 33,
+              "valor_volta": 38
+            },
+            {
+              "valor_ida": 48,
+              "valor_volta": 37
+            },
+            {
+              "valor_ida": 58,
+              "valor_volta": 35
+            },
+            {
+              "valor_ida": 59,
+              "valor_volta": 59
+            },
+            {
+              "valor_ida": 65,
+              "valor_volta": 26
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 34
+            },
+            {
+              "valor_ida": 105,
+              "valor_volta": 39
+            },
+            {
+              "valor_ida": 120,
+              "valor_volta": 92
+            },
+            {
+              "valor_ida": 126,
+              "valor_volta": 92
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 99
+            }
+          ]
+        }
+      ],
+      ,
+RELACIONOU COM edgv.eco_ext_mineral
+geometriaaproximada -> acc => SMD
+nome -> nam => t6/ A: v6; P: v7
+situacaofisica -> fun => Em Construção (3)/ A: 1; P: 3
+tipoextmin -> mzn  => Garimpo (5)/ A: 4; P: 5
+tipoproduto -> ppo => n deu pra preencher/ A: 25; P: 33 ERRO
+NOK
+TEVE A E P
+
+ "__comment": "EA010 CROP LAND <-> veg_veg_cultivada", 
+      "classe_ida": "ea010",
+      "classe_volta": "veg_veg_cultivada",
+      "filtro_volta":{
+        "$or":[
+  ]
+      },
+      ,
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "csp",
+          "attr_volta": "cultivopredominante",
+          "traducao": [
+            {
+              "valor_ida":13,
+              "valor_volta":1,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":4,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":45,
+              "valor_volta":6,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":8,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":9,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":10,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":11,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":12,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":34,
+              "valor_volta":16,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":24,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":32,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":33,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":44,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":45,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":47,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":48,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":45,
+              "valor_volta":49,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":50,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":52,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":54,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":56,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":57,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":61,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":34,
+              "valor_volta":63,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":69,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":70,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":72,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":73,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":75,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":77,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":79,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":81,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":82,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":84,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":88,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":89,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":90,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":0,
+              "valor_volta":96
+            },
+            {
+              "valor_ida":999,
+              "valor_volta":96,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":100,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":103,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":106,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":108,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":110,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":111,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":117,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":121,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":122,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":123,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":124,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":96,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":34,
+              "valor_volta":96,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":96,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":45,
+              "valor_volta":96,
+              "sentido":"ida"
+            }
+          ]
+        },
+        {
+          "attr_ida":"fmm",
+          "attr_volta":"tipolavoura",
+          "traducao":[
+            {
+              "valor_ida":3,
+              "valor_volta":1
+            },
+            {
+              "valor_ida":1,
+              "valor_volta":3
+            },
+            {
+              "valor_ida":3,
+              "valor_volta":2,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":4,
+              "valor_volta":0,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":5,
+              "valor_volta":0,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":999,
+              "valor_volta":0,
+              "sentido":"ida"
+            }
+          ]
+        }
+      ]
+RELACIONOU COM edgv.veg_veg_cultivada
+cultivopredominante -> csp => mesmo problema de matconstr/ 1
+geometriaaproximada -> acc => SMD
+tipolavoura -> fmm => -/3
+v8
+ERRO
+NOK
+SÓ TINHA A
+
+ "__comment": "EC030 WOOD | area <-> veg_floresta | sem bambu",
+      "classe_ida": "ec030",
+      "classe_volta": "veg_floresta",
+      "filtro_ida": {
+        "$and":[
+          {
+          "nome_atributo": "$GEOM_TYPE",
+          "valor": "POLYGON"
+          },
+          {
+            "$not":
+                {
+                  "nome_atributo":"vsp",
+                  "valor": 10
+                }
+          }
+        ]
+      },
+            "filtro_volta":{
+        "$not":{
+          "nome_atributo":"especiepredominante",
+          "valor":11
+        }
+      },
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "dmt",
+          "attr_volta": "densidade",
+          "traducao": [
+            {
+              "valor_ida": 51,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 25,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": -32767.0,
+              "valor_volta": 0
+            }
+          ]
+        },
+        {
+          "attr_ida": "vsp",
+          "attr_volta": "especiepredominante",
+          "traducao": [
+            {
+              "valor_ida": 25,
+              "valor_volta": 17
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 96
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 37,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 10,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 6,
+              "valor_volta": 27,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 6,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 8,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 10,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 11,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 50,
+              "valor_volta": 0,
+              "sentido": "ida"
+            }
+          ]
+        }
+      ]
+    },
+RELACIONOU COM edgv.veg_floresta
+densidade -> dmt => é aquele que na real é um valor real, ficou em branco
+especiepredominante -> vsp => Palmeira (17)/ Palmeira (17)
+geometriaaproximada -> acc => SMD
+nome -> nam => t7/v9
+NOK
+SÓ TINHA A
+
+ "__comment": "EC030 WOOD | area <-> veg_reflorestamento",
+      "classe_ida": "ec030",
+      "classe_volta": "veg_reflorestamento",
+      "filtro_ida":{
+        "nome_atributo":"vsp",
+        "valor":10
+      },
+      ,
+      "filtro_volta":{
+        "$or":[
+          {
+            "nome_atributo":"especiepredominante",
+            "valor":21
+          },
+          {
+            "nome_atributo":"especiepredominante",
+            "valor":20
+          },
+          {
+            "nome_atributo":"especiepredominante",
+            "valor":23
+          }
+        ]
+      },
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "dmt",
+          "attr_volta": "densidade",
+          "traducao": [
+            {
+              "valor_ida": 51,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 25,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": -32767.0,
+              "valor_volta": 0
+            }
+          ]
+        },
+        {
+          "attr_ida": "vsp",
+          "attr_volta": "especiepredominante",
+          "traducao": [
+            {
+              "valor_ida": 20,
+              "valor_volta": 10
+            },
+            {
+              "valor_ida": 21,
+              "valor_volta": 50
+            },
+            {
+              "valor_ida": 23,
+              "valor_volta": 6
+            },
+            {
+              "valor_ida": 0, 
+              "valor_volta": 10,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 27,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 6,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 8,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 10,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 11,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 50,
+              "valor_volta": 0,
+              "sentido": "ida"
+            }
+          ]
+        }
+      ]
+    },
+    {
+
+RELACIONOU COM edgv.veg_reflorestamento
+"densidade" nao aparecia na lista de atributos da classe de chegada
+"especiepredominante" 
+geometriaaproximada -> acc => SMD
+nome -> nam => t8/v10
+NOK
+ERRO - ele tem um atributo de cultivopredominante
+gerais feitos posteriormente
+
+"__comment": "AP030 ROAD <->  rod_trecho_rodoviario",
+      "classe_ida": "ap030",
+      "classe_volta": "rod_trecho_rodoviario",
+      ,
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "rst",
+          "attr_volta": "revestimento",
+          "traducao": [
+            {
+              "valor_ida": 8,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 1,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 99,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 0,
+              "sentido": "volta"
+            }
+          ]
+        },
+        {
+          "attr_ida": "mes",
+          "attr_volta": "canteirodivisorio",
+          "traducao": [
+            {
+              "valor_ida": 1000,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 1001,
+              "valor_volta": 1
+            }
+          ]
+        },
+        {
+          "attr_ida": "sep",
+          "attr_volta": "nrpistas",
+          "traducao": [
+            {
+              "valor_ida": 0,
+              "valor_volta": 1,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida": 1000,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 1001,
+              "valor_volta": 1
+            }
+          ]
+        }
+      ],
+      
+    {
+
+RELACIONOU COM edgv.rod_trecho_rodoviario
+canteirodivisorio -> mes => SMD
+geometriaaproximada -> acc => SMD
+nrfaixas -> ltn => SMD
+nrpistas -> sep => SMD
+revestimento -> rst  => Sem Revestimento (1)
+situacaofisica -> fun => Em construção (3)
+trafego -> wtc => Temporário (4)
+fui forçado a colocar alguma coisa em nrpistas: 0
+t8/v11
+NOK
+SÓ TEVE DE L 
+
+"__comment": "AQ040 BRIDGE <-> tra_ponte",
+      "classe_ida": "aq040",
+      "classe_volta": "tra_ponte",
+      "filtro_ida": {
+        "$not": {
+          "nome_atributo": "trs",
+          "valor": 9
+        }
+      },
+      
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "bsc",
+          "attr_volta": "tipoponte",
+          "traducao": [
+            {
+              "valor_ida": 27,
+              "valor_volta": 7
+            },
+            {
+              "valor_ida": 15,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 9,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 1,
+              "valor_volta": 3,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 26,
+              "valor_volta": 3,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 16,
+              "valor_volta": 3,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 7,
+              "valor_volta": 7,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 3,
+              "valor_volta": 2,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 5,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 8,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 19,
+              "valor_volta": 0,
+              "sentido": "ida"
+            }
+          ]
+        },
+        {
+          "attr_ida": "trs",
+          "attr_volta": "modaluso",
+          "traducao": [
+            {
+              "valor_ida": 0,
+              "valor_volta": 9999,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 1,
+              "valor_volta": 9
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 4,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 13,
+              "valor_volta": 4
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 10
+            },
+            {
+              "valor_ida": 5,
+              "valor_volta": 14,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 7,
+              "valor_volta": 14
+            },
+            {
+              "valor_ida": 10,
+              "valor_volta": 7
+            },
+            {
+              "valor_ida": 12,
+              "valor_volta": 5
+            },
+            {
+              "valor_ida": 12,
+              "valor_volta": 6,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 998,
+              "valor_volta": 9999,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 9999,
+              "sentido": "ida"
+            }
+          ]
+        }
+      ],
+      ,
+    {
+RELACIONOU COM edgv.tra_ponte
+geometriaaproximada -> acc => SMD
+modaluso -> trs => mesmo problema de matconstru/A: 9; L: 10~9 deu problema quando selecionei 10 pro modal uso
+nome -> nam => t9/ NA: v12; NL: v13
+tipoponte -> bsc => Estaiada (7)/ NA: 7; NL: 3
+vaovertical -> ohb => SMD
+fui obrigado a preencher nrpistas: 0
+ERRO - trs
+NOK
+TEVE  A, L
+
+ "__comment": "AL015 GENERAL BUILDING <-> edf_edif_agropec_ext_vegetal_pesca | sede_op_fazenda",
+      "classe_ida": "al015",
+      "classe_volta": "edf_edif_agropec_ext_vegetal_pesca",
+      "filtro_ida": {
+        "nome_atributo": "ffn",
+        "valor": 2
+      },
+      
+      "mapeamento_atributos":[
+        {
+          "attr_ida":"ffn",
+          "attr_volta":"tipoedifagropec",
+          "traducao":[
+            {
+              "valor_ida": 2,
+              "valor_volta": 4,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 12,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 13,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 14,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 15,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 16,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 17,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 18,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 99,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 0,
+              "sentido":"volta"
+            }
+          ]
+        }
+      ]
+    },
+RELACIONOU COM edgv.edif_edif_agropec_ext_veg_pesca
+geometriaaproximada -> acc => SMD
+nome -> nam => t10/ NA: v14; NP: v15
+situacaofisica -> fun => Abandonada (1)/ NA:1; NP: 3
+tipoedifagropec -> ffn => -/ NA: 4; NP: 4
+NOK
+ERRO - ffn
+TEVE A, P
+
+
+  "__comment": "AL015 GENERAL BUILDING |  Place of Worship  & Religious Activities <-> edf_edif_religiosa",
+      "classe_ida": "al015",
+      "classe_volta": "edf_edif_religiosa",
+      "filtro_ida": {
+        "$or": [
+          {
+            "nome_atributo": "ffn",
+            "valor": 931
+          },
+          {
+            "nome_atributo": "ffn",
+            "valor": 930
+          }
+        ]
+      },
+      ,
+      "mapeamento_atributos": [
+        {
+          "attr_ida": "hwt",
+          "attr_volta": "tipoedifrelig",
+          "traducao": [
+            {
+              "valor_ida": 4,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 16,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 20,
+              "valor_volta": 7
+            },
+            {
+              "valor_ida": 998,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 99
+            },
+            {
+              "valor_ida": 9,
+              "valor_volta": 6,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 7,
+              "valor_volta": 4
+            }
+          ]
+        }
+      ],
+      
+        }
+      ]
+    },
+RELACIONOU COM edgv.edif_edif_religiosa
+geometriaaproximada -> acc => SMD
+nome -> nam => P: t11; A: t12/ NA: v16; NP: v17
+tipoedifrelig -> hwt => P: Igreja (1); A: Templo (2)/ NA: 1; NP: 2 
+NOK
+TEVE A, P
