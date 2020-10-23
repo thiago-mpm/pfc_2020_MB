@@ -1,0 +1,81 @@
+- t1
+hdv_atracadouro_terminal_l
+geometriaaproximada -> acc => Sim
+matconstr - > mcc => não consegui preencher
+situacaofisica - > fun  => Abandonada
+tipoatracad -> pwc => não apareceu
+
+- t2
+hdv_atracadouro_terminal_a
+geometriaaproximada -> acc => Não
+matconstr - > mcc => não consegui preencher
+situacaofisica - > fun  => Destruída
+tipoatracad -> pwc => não apareceu
+
+ERRO: falou que matconstru deve estar NULL, nova tentativa; mas esse é o atributo que n consigo preencher. Vamos seguir.
+
+- t3
+edgv.fer_treco_ferroviario
+
+- t4
+edgv.dut_trcho_duto
+
+- t5
+edgv.hid_barragem
+-> tinha matconstru, deu erro em ponto, linha e área
+ERRO
+
+- t6
+edgv.veb_veg_cultivada
+-> cultivopredominante mesmo problema de matconstru
+ERRO
+
+- t7
+edgv.veg_floresta
+densidade -> dmt => é aquele que na real é um valor real, ficou em branco
+especiepredominante -> vsp => Palmeira (17)
+geometriaaproximada -> acc => SMD
+nome -> nam => t7
+
+- t8
+edgv.rod_trecho_rodoviario
+canteirodivisorio -> mes => SMD
+geometriaaproximada -> acc => SMD
+nrfaixas -> ltn => SMD
+nrpistas -> sep => SMD
+revestimento -> rst  => Sem Revestimento (1)
+situacaofisica -> fun => Em construção (3)
+trafego -> wtc => Temporário (4)
+fui forçado a colocar alguma coisa em nrpistas: 0
+
+- t9
+edgv.tra_ponte
+geometriaaproximada -> acc => SMD
+modaluso -> trs => mesmo problema de matconstru
+nome -> nam => t9
+tipoponte -> bsc => Estaiada (7)
+vaovertical -> ohb => SMD
+fui obrigado a preencher nrpistas: 0
+
+ERRO - trs
+
+- t10
+edgv.edif_edif_agropec_ext_veg_pesca
+geometriaaproximada -> acc => SMD
+nome -> nam => t10
+situacaofisica -> fun => Abandonada (1)
+tipoedifagropec -> ffn => mesma parada do matconstr
+
+ERRO - ffn
+
+- t11
+edgv.edif_edif_religiosa
+geometriaaproximada -> acc => SMD
+nome -> nam => t11
+tipoedifrelig -> hwt => Igreja (1)
+
+- t12
+edgv.edif_edif_religiosa
+geometriaaproximada -> P: acc => SMD
+nome -> nam => A: t12
+tipoedifrelig -> hwt => A: Templo (2)
