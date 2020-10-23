@@ -1,0 +1,1057 @@
+dominios.booleano -> domains.booleano
+dominios.situacao_em_agua -> domains.wle
+dominios.auxiliar -> domains.scc
+
+dominios.tipo_atracad -> domains.pwc
+
+dominios.posicao_relativa -> domains.loc
+          "attr_ida": "loc",
+          "attr_volta": "posicaorelativa",
+          "traducao": [
+            {
+              "valor_ida": 45,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 44,
+              "valor_volta": 4,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 40,
+              "valor_volta": 5,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 40,
+              "valor_volta": 6
+            },
+            {
+              "valor_ida": 44,
+              "valor_volta": 2
+
+
+
+dominios.mat_constr -> domains.mcc
+          "attr_ida": "mcc",
+          "attr_volta": "matconstr",
+          "traducao": [
+            {
+              "valor_ida": 0,
+              "valor_volta": 0
+            },
+            {
+              "valor_ida": 21,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 77,
+              "valor_volta": 2,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 83,
+              "valor_volta": 2,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 64,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 62,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 104,
+              "valor_volta": 23
+            },
+            {
+              "valor_ida": 84,
+              "valor_volta": 4
+            },
+            {
+              "valor_ida": 108,
+              "valor_volta": 4,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 117,
+              "valor_volta": 5
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 99
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 97
+            }
+          ]
+
+
+
+dominios.tipo_ext_min -> domains.mzn
+          "attr_ida": "mzn",
+          "attr_volta": "tipoextmin",
+          "traducao": [
+            {
+              "valor_ida": 3,
+              "valor_volta": 5
+            },
+            {
+              "valor_ida": 9,
+              "valor_volta": 4
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 0
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 5,
+              "valor_volta": 6,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 8,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 99,
+              "sentido": "volta"
+            }
+
+
+
+
+
+dominios.tipo_produto_residuo -> domains.ppo
+          "attr_ida": "ppo",
+          "attr_volta": "tipoproduto",
+          "traducao": [
+            {
+              "valor_ida": 0,
+              "valor_volta": 0
+            },
+            {
+              "valor_ida": 9,
+              "valor_volta": 25
+            },
+            {
+              "valor_ida": 18,
+              "valor_volta": 33
+            },
+            {
+              "valor_ida": 26,
+              "valor_volta": 32
+            },
+            {
+              "valor_ida": 33,
+              "valor_volta": 38
+            },
+            {
+              "valor_ida": 48,
+              "valor_volta": 37
+            },
+            {
+              "valor_ida": 58,
+              "valor_volta": 35
+            },
+            {
+              "valor_ida": 59,
+              "valor_volta": 59
+            },
+            {
+              "valor_ida": 65,
+              "valor_volta": 26
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 34
+            },
+            {
+              "valor_ida": 105,
+              "valor_volta": 39
+            },
+            {
+              "valor_ida": 120,
+              "valor_volta": 92
+            },
+            {
+              "valor_ida": 126,
+              "valor_volta": 92
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 99
+            }
+
+
+
+dominios.cultivo_predominante ->  domains.csp
+          "attr_ida": "csp",
+          "attr_volta": "cultivopredominante",
+          "traducao": [
+            {
+              "valor_ida":13,
+              "valor_volta":1,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":4,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":45,
+              "valor_volta":6,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":8,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":9,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":10,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":11,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":12,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":34,
+              "valor_volta":16,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":24,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":32,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":33,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":44,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":45,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":47,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":48,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":45,
+              "valor_volta":49,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":50,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":52,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":54,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":56,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":57,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":61,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":34,
+              "valor_volta":63,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":69,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":70,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":72,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":73,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":75,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":77,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":79,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":81,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":82,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":84,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":88,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":89,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":90,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":0,
+              "valor_volta":96
+            },
+            {
+              "valor_ida":999,
+              "valor_volta":96,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":100,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":103,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":106,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":108,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":110,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":111,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":117,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":121,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":122,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":123,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":124,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":13,
+              "valor_volta":96,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":34,
+              "valor_volta":96,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":37,
+              "valor_volta":96,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":45,
+              "valor_volta":96,
+              "sentido":"ida"
+            }
+          ]
+
+
+
+dominios.tipo_lavoura - >  domains.fmm
+          "attr_ida":"fmm",
+          "attr_volta":"tipolavoura",
+          "traducao":[
+            {
+              "valor_ida":3,
+              "valor_volta":1
+            },
+            {
+              "valor_ida":1,
+              "valor_volta":3
+            },
+            {
+              "valor_ida":3,
+              "valor_volta":2,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida":4,
+              "valor_volta":0,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":5,
+              "valor_volta":0,
+              "sentido":"ida"
+            },
+            {
+              "valor_ida":999,
+              "valor_volta":0,
+              "sentido":"ida"
+            }
+          ]
+
+ "__comment": "EC030 WOOD | area <-> veg_floresta | sem bambu",
+          "attr_ida": "dmt",
+          "attr_volta": "densidade",
+
+dmt nao aparece na lista de domínio da MGCP
+é porque ele é um atributo REAL
+seu valor é uma porcentagem
+não é um dominio
+porém na metodologia se usa valores fixos
+
+dominios.especie -> domains.vsp
+- o de 6 pra 27 não rolou pq o 27 não apareceu lá onde a gente queria
+          "attr_ida": "vsp",
+          "attr_volta": "especiepredominante",
+          "traducao": [
+            {
+              "valor_ida": 25,
+              "valor_volta": 17
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 96
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 37,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 10,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 6,
+              "valor_volta": 27,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 6,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 8,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 10,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 11,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 50,
+              "valor_volta": 0,
+              "sentido": "ida"
+            }
+          ]
+
+
+"__comment": "AP030 ROAD <->  rod_trecho_rodoviario",
+"attr_ida": "rst", ; "attr_volta": "revestimento"
+o 4 pro 0 não foi feito pq não aparece na lista da MGCP
+
+dominios.revestimento - > domains.rst
+          "attr_ida": "rst",
+          "attr_volta": "revestimento",
+          "traducao": [
+            {
+              "valor_ida": 8,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 1,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 99,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 0,
+              "sentido": "volta"
+            }
+          ]
+
+"attr_ida": "mes"
+"attr_volta": "canteirodivisorio"
+ não fiz pq a do canteirodivisorio também usa o auxiliar.
+
+"attr_ida": "sep",
+"attr_volta": "nrpistas" - não apareceu no pgAdmin 
+
+dominios.tipo_ponte - > domains.bsc
+          "attr_ida": "bsc",
+          "attr_volta": "tipoponte",
+          "traducao": [
+            {
+              "valor_ida": 27,
+              "valor_volta": 7
+            },
+            {
+              "valor_ida": 15,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 9,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 1,
+              "valor_volta": 3,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 26,
+              "valor_volta": 3,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 16,
+              "valor_volta": 3,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 7,
+              "valor_volta": 7,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 3,
+              "valor_volta": 2,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 5,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 8,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 19,
+              "valor_volta": 0,
+              "sentido": "ida"
+            }
+          ]
+        },
+
+
+dominios.modal_uso -> domains.trs
+Nessa pode ter rolado uma associação 2-14
+          "attr_ida": "trs",
+          "attr_volta": "modaluso",
+          "traducao": [
+            {
+              "valor_ida": 0,
+              "valor_volta": 9999,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 1,
+              "valor_volta": 9
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 4,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 13,
+              "valor_volta": 4
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 10
+            },
+            {
+              "valor_ida": 5,
+              "valor_volta": 14,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 7,
+              "valor_volta": 14
+            },
+            {
+              "valor_ida": 10,
+              "valor_volta": 7
+            },
+            {
+              "valor_ida": 12,
+              "valor_volta": 5
+            },
+            {
+              "valor_ida": 12,
+              "valor_volta": 6,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 998,
+              "valor_volta": 9999,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 9999,
+              "sentido": "ida"
+            }
+          ]
+        }
+      ],
+
+
+dominios.tipo_edif_agropec -> domains.ffn
+          "attr_ida":"ffn",
+          "attr_volta":"tipoedifagropec",
+          "traducao":[
+            {
+              "valor_ida": 2,
+              "valor_volta": 4,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 12,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 13,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 14,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 15,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 16,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 17,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 18,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 99,
+              "sentido":"volta"
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 0,
+              "sentido":"volta"
+            }
+          ]
+        }
+      ]
+    },
+
+dominios.tipo_edif_relig -> domains.hwt
+          "attr_ida": "hwt",
+          "attr_volta": "tipoedifrelig",
+          "traducao": [
+            {
+              "valor_ida": 4,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 16,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 20,
+              "valor_volta": 7
+            },
+            {
+              "valor_ida": 998,
+              "valor_volta": 0,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 999,
+              "valor_volta": 99
+            },
+            {
+              "valor_ida": 9,
+              "valor_volta": 6,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 7,
+              "valor_volta": 4
+            }
+          ]
+        }
+
+dominios.tipo_terreno_exposto -> domains.smc
+          "attr_ida":"smc",
+          "attr_volta":"tipoterrexp",
+          "traducao":[
+            {
+              "valor_ida":8,
+              "valor_volta":4
+            },
+            {
+              "valor_ida":999,
+              "valor_volta":9999
+            },
+            {
+              "valor_ida":88,
+              "valor_volta":12
+            },
+            {
+              "valor_ida":104,
+              "valor_volta":23
+            },
+            {
+              "valor_ida":46,
+              "valor_volta":18
+            },
+            {
+              "valor_ida":46,
+              "valor_volta":24,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":21,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":52,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":55,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":65,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":67,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":84,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":87,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":103,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":120,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":122,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":124,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":126,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":257,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":258,
+              "valor_volta":0,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida":259,
+              "valor_volta":0,
+              "sentido": "volta"
+            }
+          ]
+        }
+
+dominios.regime -> domains.hyp
+      "attr_ida": "hyp",
+      "attr_volta": "regime",
+      "traducao": [
+        {
+          "valor_ida": 0,
+          "valor_volta": 0
+        },
+        {
+          "valor_ida": 1,
+          "valor_volta": 1
+        },
+        {
+          "valor_ida": 2,
+          "valor_volta": 3
+        },
+        {
+          "valor_ida": 4,
+          "valor_volta": 5
+        },
+        {
+          "valor_ida": 1,
+          "valor_volta": 2,
+          "sentido": "volta"
+        },
+        {
+          "valor_ida": 2,
+          "valor_volta": 4,
+          "sentido": "volta"
+        }
+      ]
+
+
+
+o atributo salgadaa é de auxiliar, então não usei, pq auxiliar já foi feito.
+
+dominios.situacao_fisica -> domains.fun
+      "attr_ida": "fun",
+      "attr_volta": "situacaofisica",
+      "traducao": [
+        {
+          "valor_ida": 0,
+          "valor_volta": 0
+        },
+        {
+          "valor_ida": 1,
+          "valor_volta": 3
+        },
+        {
+          "valor_ida": 2,
+          "valor_volta": 1
+        },
+        {
+          "valor_ida": 3,
+          "valor_volta": 2
+        },
+        {
+          "valor_ida": 4,
+          "valor_volta": 2,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 6,
+          "valor_volta": 5
+        },
+        {
+          "valor_ida": 13,
+          "valor_volta": 5,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 0,
+          "valor_volta": 4,
+          "sentido": "volta"
+        },
+        {
+          "valor_ida": 6,
+          "valor_volta": 6,
+          "sentido": "volta"
+        },
+        {
+          "valor_ida": 0,
+          "valor_volta": 97,
+          "sentido": "volta"
+        }
+      ]
+
+
+
+dominios.trafego -> domains.wtc
+      "attr_ida": "wtc",
+      "attr_volta": "trafego",
+      "traducao": [
+        {
+          "valor_ida": 2,
+          "valor_volta": 4
+        },
+        {
+          "valor_ida": 3,
+          "valor_volta": 2
+        }
+      ]
