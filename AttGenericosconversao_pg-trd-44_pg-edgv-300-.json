@@ -1,0 +1,559 @@
+
+  "mapeamento_atributos": [
+    {
+      "__comment": "ACC Horizontal Accuracy Category <-> geometriaaproximada",
+      "attr_ida": "acc",
+      "attr_volta": "geometriaaproximada",
+      "traducao": [
+        {
+          "valor_ida": 1,
+          "valor_volta": false
+        },
+        {
+          "valor_ida": 2,
+          "valor_volta": true
+        }
+      ]
+    },
+    {
+      "__comment": "WTC Road Weather Restriction <-> trafego",
+      "attr_ida": "wtc",
+      "attr_volta": "trafego",
+      "traducao": [
+        {
+          "valor_ida": 2,
+          "valor_volta": 4
+        },
+        {
+          "valor_ida": 3,
+          "valor_volta": 2
+        }
+      ]
+    },
+    {
+      "attr_ida":"csp",
+      "attr_volta":"cultivopredominante",
+      "traducao":[
+        {
+          "valor_ida": 41,
+          "valor_volta": 2
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 3,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 14,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 15,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 22,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 29,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 30,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 31,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 43,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 46,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 51,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 53,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 55,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 58,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 59,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 60,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 64,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 66,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 67,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 71,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 74,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 76,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 78,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 80,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 83,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 85,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 86,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 87,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 105,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 112,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 113,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 115,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 116,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 118,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 119,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 15,
+          "valor_volta": 120,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 19,
+          "valor_volta": 29
+        },
+        {
+          "valor_ida": 113,
+          "valor_volta": 68,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 113,
+          "valor_volta": 101,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 157,
+          "valor_volta": 17,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 113,
+          "valor_volta": 18,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 113,
+          "valor_volta": 65,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 113,
+          "valor_volta": 102,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 113,
+          "valor_volta": 104,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 0,
+          "valor_volta": 96,
+          "sentido":"volta"
+        },
+        {
+          "valor_ida": 999,
+          "valor_volta": 99,
+          "sentido":"volta"
+        }
+      ]
+    },
+    {
+      "__comment": "RST Load-bearing Surface Type  <-> revestimento",
+      "attr_ida": "rst",
+      "attr_volta": "revestimento",
+      "traducao": [
+            {
+              "valor_ida": 8,
+              "valor_volta": 1
+            },
+            {
+              "valor_ida": 1,
+              "valor_volta": 3
+            },
+            {
+              "valor_ida": 2,
+              "valor_volta": 2
+            },
+            {
+              "valor_ida": 5,
+              "valor_volta": 1,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 6,
+              "valor_volta": 1,
+              "sentido": "ida"
+            },
+            {
+              "valor_ida": 0,
+              "valor_volta": 99,
+              "sentido": "volta"
+            },
+            {
+              "valor_ida": 4,
+              "valor_volta": 0,
+              "sentido": "volta"
+            }
+      ]
+    },
+    {
+      "__comment": "HYP Hydrologic Persistence <-> regime",
+      "attr_ida": "hyp",
+      "attr_volta": "regime",
+      "traducao": [
+        {
+          "valor_ida": 0,
+          "valor_volta": 0
+        },
+        {
+          "valor_ida": 1,
+          "valor_volta": 1
+        },
+        {
+          "valor_ida": 2,
+          "valor_volta": 3
+        },
+        {
+          "valor_ida": 4,
+          "valor_volta": 5
+        },
+        {
+          "valor_ida": 1,
+          "valor_volta": 2,
+          "sentido": "volta"
+        },
+        {
+          "valor_ida": 2,
+          "valor_volta": 4,
+          "sentido": "volta"
+        }
+      ]
+    },
+    {
+      "__comment": "FUN Condition of Facility <-> situacaofisica",
+      "attr_ida": "fun",
+      "attr_volta": "situacaofisica",
+      "traducao": [
+        {
+          "valor_ida": 0,
+          "valor_volta": 0
+        },
+        {
+          "valor_ida": 1,
+          "valor_volta": 3
+        },
+        {
+          "valor_ida": 2,
+          "valor_volta": 1
+        },
+        {
+          "valor_ida": 3,
+          "valor_volta": 2
+        },
+        {
+          "valor_ida": 4,
+          "valor_volta": 2,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 6,
+          "valor_volta": 5
+        },
+        {
+          "valor_ida": 13,
+          "valor_volta": 5,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 0,
+          "valor_volta": 4,
+          "sentido": "volta"
+        },
+        {
+          "valor_ida": 6,
+          "valor_volta": 6,
+          "sentido": "volta"
+        },
+        {
+          "valor_ida": 0,
+          "valor_volta": 97,
+          "sentido": "volta"
+        }
+      ]
+    },
+    {
+      "__comment": "MCC Structural Material Type <-> matconstr",
+      "attr_ida": "mcc",
+      "attr_volta": "matconstr",
+      "traducao": [
+        {
+          "valor_ida": 0,
+          "valor_volta": 0
+        },
+        {
+          "valor_ida": 21,
+          "valor_volta": 2
+        },
+        {
+          "valor_ida": 77,
+          "valor_volta": 2,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 83,
+          "valor_volta": 2,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 64,
+          "valor_volta": 3
+        },
+        {
+          "valor_ida": 62,
+          "valor_volta": 1
+        },
+        {
+          "valor_ida": 104,
+          "valor_volta": 23
+        },
+        {
+          "valor_ida": 84,
+          "valor_volta": 4
+        },
+        {
+          "valor_ida": 108,
+          "valor_volta": 4,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 117,
+          "valor_volta": 5
+        },
+        {
+          "valor_ida": 999,
+          "valor_volta": 99
+        },
+        {
+          "valor_ida": 20,
+          "valor_volta": 8
+        },
+        {
+          "valor_ida": 0,
+          "valor_volta": 97,
+          "sentido": "volta"
+        },
+        {
+          "valor_ida": 5,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 16,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 22,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 66,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 57,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 72,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 73,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 86,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 88,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 9,
+          "valor_volta": 99,
+          "sentido": "ida"
+        },
+        {
+          "valor_ida": 46,
+          "valor_volta": 99,
+          "sentido": "ida"
+        }
+      ]
+    },
+    {
+      "__comment":"WID Width <-> largura",
+      "attr_ida":"wid",
+      "attr_volta":"largura"
+    },
+    {
+      "__comment":"LEN Length <-> Extensão",
+      "attr_ida":"len",
+      "attr_volta":"extensão"
+    },
+    {
+      "__comment": "LTN Track or Lane Count <-> nrfaixas",
+      "attr_ida": "ltn",
+      "attr_volta": "nrfaixas"
+    },
+    {
+      "__comment": "OHB Overall Bridge Height <-> vaovertical",
+      "attr_ida": "ohb",
+      "attr_volta": "vaovertical"
+    },
+    {
+      "__comment": "NAM Name <-> nome",
+      "attr_ida": "nam",
+      "attr_volta": "nome",
+      "traducao":[
+        {
+          "valor_ida": "UNK",
+          "valor_volta": null,
+          "sentido": "ida"
+        }
+      ]
+    },
+    {
+      "__comment": "TXT Text <-> obs",
+      "attr_ida": "txt",
+      "attr_volta": "obs" 
+    }
+  ],
+  "atributos_default_ida": [
+    {
+      "nome_atributo":"proprioadm",
+      "valor":0
+    }
+  ],
+  "atributos_default_volta": [
+    {
+      "nome_atributo": "srt",
+      "valor": 9999
+    }
+  ]
+}
