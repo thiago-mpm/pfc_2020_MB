@@ -1,0 +1,125 @@
+- v1
+edgv.fer_treco_ferroviario
+eletrificada -> rra SMD
+amarruamento - > rir SMD
+geometriaaproximada -> acc SMD
+nome -> nam => t3 (txt)
+nrlinhas -> rta => SMD
+posicaorelativa -> loc => Elevada(3)
+situacaofisica - > fun => Em Construção (3)
+
+- v2
+edgv.dut_trcho_duto
+geometriaaproximada -> acc  => SMD
+posicaorelativa -> loc => Elevada (3)
+situacaofisica -> fun => Abandonada(1)
+
+-  v3
+edgv.hid_barragem
+geometriaaproximada -> acc => SMD
+nome -> nam =>  t5 (txt)/ A: v3
+situacaofisica - >fun => Destruída (2) A: Destruída (2)
+matconstr -> mcc => kaguei / A: 2
+
+- v4
+edgv.hid_barragem
+geometriaaproximada -> acc => SMD
+nome -> nam =>  t5 (txt)/L: v4
+situacaofisica - >fun => Destruída (2) L: 3
+matconstr -> mcc => erro / L: 2
+
+- v5
+edgv.hid_barragem
+geometriaaproximada -> acc => SMD
+nome -> nam =>  t5 (txt)/P: v5
+situacaofisica - >fun => Destruída (2)/ P: 1
+matconstr -> mcc => kaguei / P: 3
+
+- v6
+edgv.eco_ext_mineral
+geometriaaproximada -> acc => SMD
+nome -> nam => t6/ A: v6
+situacaofisica -> fun => Em Construção (3)/ A: 1
+tipoextmin -> mzn  => Garimpo (5)/ A: 4
+tipoproduto -> ppo => n deu pra preencher/ A: 25
+
+- v7
+edgv.eco_ext_mineral
+geometriaaproximada -> acc => SMD
+nome -> nam => t6/P: v7
+situacaofisica -> fun => Em Construção (3)/ P: 3
+tipoextmin -> mzn  => Garimpo (5)/ A: 4; P: 5
+tipoproduto -> ppo => n deu pra preencher/ P: 33
+
+- v8
+edgv.veg_veg_cultivada
+cultivopredominante -> csp => mesmo problema de matconstr/ A: 1
+geometriaaproximada -> acc => SMD
+tipolavoura -> fmm => -/ A: 3
+
+- v9
+edgv.veg_floresta
+densidade -> dmt => é aquele que na real é um valor real, ficou em branco
+especiepredominante -> vsp => Palmeira (17)/ Palmeira (17)
+geometriaaproximada -> acc => SMD
+nome -> nam => t7/v9
+
+- v10
+edgv.veg_reflorestamento
+geometriaaproximada -> acc => SMD
+nome -> nam => t8/v10
+
+- v11
+edgv.rod_trecho_rodoviario
+canteirodivisorio -> mes => SMD
+geometriaaproximada -> acc => SMD
+nrfaixas -> ltn => SMD
+nrpistas -> sep => SMD
+revestimento -> rst  => Sem Revestimento (1)
+situacaofisica -> fun => Em construção (3)
+trafego -> wtc => Temporário (4)
+fui forçado a colocar alguma coisa em nrpistas: 0
+
+- v12
+edgv.tra_ponte
+geometriaaproximada -> acc => SMD
+modaluso -> trs => mesmo problema de matconstru/A: 9
+nome -> nam => t9/ A: v12
+tipoponte -> bsc => Estaiada (7)/ A: 7
+vaovertical -> ohb => SMD
+fui obrigado a preencher nrpistas: 0
+
+- v13
+edgv.tra_ponte
+geometriaaproximada -> acc => SMD
+modaluso -> trs => mesmo problema de matconstru/L: 10, deu problema, mudei para 9 e deu certo.
+nome -> nam => t9/ L: v13
+tipoponte -> bsc => Estaiada (7)/ L: 3
+vaovertical -> ohb => SMD
+fui obrigado a preencher nrpistas: 0
+
+- v14
+edgv.edif_edif_agropec_ext_veg_pesca
+geometriaaproximada -> acc => SMD
+nome -> nam => t10/ A: v14
+situacaofisica -> fun => Abandonada (1); A:1
+tipoedifagropec -> ffn => mesma parada do matconstr/ A: 4
+
+- v15
+edgv.edif_edif_agropec_ext_veg_pesca
+geometriaaproximada -> acc => SMD
+nome -> nam => t10/ P: v15
+situacaofisica -> fun => Abandonada (1); P: 3
+tipoedifagropec -> ffn => mesma parada do matconstr/ P: 4
+
+- v16
+edgv.edif_edif_religiosa
+geometriaaproximada -> P: acc => SMD
+nome -> nam => P: t11; A: t12/ NA: v16
+tipoedifrelig -> hwt => P: Igreja (1); A: Templo (2)/ NA: 1
+
+- v17
+edgv.edif_edif_religiosa
+geometriaaproximada -> acc => SMD
+nome -> nam => P: t11; A: t12/ NP: v17
+tipoedifrelig -> hwt => P: Igreja (1); A: Templo (2)/ NP: 2
